@@ -1,7 +1,25 @@
 (function(window, _) {
-    window.myLibraryName = window.myLibraryName || {
+    window.BiggestBird = window.myLibraryName || {
       numz: {},
       phyz: {
+
+
+        /**
+         * 
+         * @param {object} pointA a point on the screen
+         * @param {object} pointB a point on the screen
+         * @param {number} pointB.x x value of point b
+         * @param {number} pointA.x x value of point a 
+         * @param {number} pointB.y y value of point b
+         * @param {number} pointA.y y value of point a
+         * 
+         * 
+         * 
+         * @returns {number} the distance 
+         */
+
+
+
 
        getDistance(pointA, pointB){
           const
