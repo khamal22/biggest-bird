@@ -23,9 +23,20 @@
           return degrees;
 
         },
+        /**
+         *  @param {number} degreesToRadians calculates degrees to radians
+         * @param {*} degrees a number
+         * 
+         * @returns {number} the radian
+         */
           degreesToRadians(degrees) {
             return degrees * Math.PI / 180;
           },
+          /**
+           * @param {number} radiansToDegrees calculates radians to degrees 
+           * @param {*} radians the distance as a single number 
+           * @returns {number} degrees 
+           */
           radiansToDegrees(radians) {
             return radians * 180 / Math.PI;
           },
