@@ -1,6 +1,19 @@
 (function(window, _) {
     window.BiggestBird = window.BiggestBird || {
       numz: {
+        /**
+         * 
+         * @param {*} pointA a point on the screen
+         * @param {*} pointB a point on the screen
+         * @param {number} distanceX is the distance between pointB.x and point A.x 
+         * @param {number} distanceY is the distance between pointB.y and point A.y
+         * @param {number} radians a number value from the distance in the radians
+         * @param {number} degrees calculates a numeric value from radians to degrees 
+         * @param {number} degreesToRadians calculates degrees to radians
+         * @param {number} radiansToDegrees calculates radians to degrees 
+         * @returns {number} the degrees 
+         * 
+         */
         getAngleDegrees( pointA, pointB) {
           const 
           distanceX = pointB.x - pointA.x,
